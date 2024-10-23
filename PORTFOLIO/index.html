@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- lightgallery cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <!-- header -->
+
+    <header class="header">
+
+        <a href="#" class="logo">MY PORTFOLIO</a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#services">services</a>
+            <a href="#project">project</a>
+            <a href="#contact">contact</a>
+        </nav>
+
+
+    </header>
+
+    <!-- end -->
+
+    <!-- home -->
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3> <span>I Am</span> Adeniyan Adebomi</h3>
+        </div>
+
+    </section>
+
+
+    <!-- home end -->
+
+    <!-- about -->
+
+    <section class="about" id="about">
+
+        <h3 class="heading"> <span>about </span> me</h3>
+
+        <div class="personal-info">
+
+            <h3 class="title">personal info</h3>
+
+            <div class="box-container">
+
+                <div class="box">
+                    <h3> <span>full name: </span> Adeniyan Adebomi</h3>
+                    <h3> <span>age: </span> 18 years</h3>
+                    <h3> <span>email: </span> adebomiadeniyan@gmail.com</h3>
+                    <h3> <span>phone: </span> +234 9043430937</h3>
+                </div>
+
+                <div class="box">
+                    <h3> <span>experience: </span> 2 years</h3>
+                    <h3> <span>address: </span> Oyo State, Nigeria</h3>
+                    <h3> <span>language: </span> English</h3>
+                    <h3> <span>freelance: </span> Available</h3>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="skill">
+
+            <h3 class="title">my skills</h3>
+
+            <div class="box-container">
+
+                <div class="box">
+                    <div class="progress progress-1">
+                        <h3>HTML <span>75%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+
+                    <div class="progress progress-2">
+                        <h3>CSS <span>70%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+
+                    <div class="progress progress-3">
+                        <h3>JavaScript<span>65%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+
+                    <div class="progress progress-4">
+                        <h3>figma <span>90%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="progress progress-5">
+                        <h3>Adode XD <span>95%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+
+                    <div class="progress progress-6">
+                        <h3>Design<span>70%</span></h3>
+                        <div class="bar"><span></span></div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="counter">
+
+            <div class="box">
+                <i class="fas fa-calendar"></i>
+                <h3 class="count">2 </h3>
+                <p>years of experience</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-image"></i>
+                <h3 class="count">50 </h3>
+                <p>completed projects</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-users"></i>
+                <h3 class="count">2 </h3>
+                <p>happy clients</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-award"></i>
+                <h3 class="count">10 </h3>
+                <p>awards won</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- about end -->
+
+    <!-- services -->
+
+    <section class="services" id="services">
+
+        <h3 class="heading">our <span>services</span></h3>
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>web development</h3>
+                <p>Front-end development, Responsive Web Design, UI/UX design </p>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+            <div class="box">
+                <h3>web design</h3>
+                <p>Responsive design, UI/UX design, E-commerce design, Mobile App design, Website Redesign.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+
+            <div class="box">
+                <h3>graphic design</h3>
+                <p>Logo design, Icon design, Web design.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+
+            <div class="box">
+                <h3>freelancing</h3>
+                <p>Graphic Design, Web development</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- services end -->
+
+    <!-- contact -->
+
+    <section class="contact" id="contact">
+
+        <h3 class="heading"><span>contact</span> me</h3>
+    
+        <div class="row">
+    
+            <div class="image">
+                <img src="images/Resume.gif" alt="">
+            </div>
+    
+            <form id="contactForm" onsubmit="sendEmail(); return false;">
+    
+                <div class="inputBox">
+                    <input type="text" id="name" required>
+                    <label>name</label>
+                </div>
+    
+                <div class="inputBox">
+                    <input type="email" id="email" required>
+                    <label>email</label>
+                </div>
+    
+                <div class="inputBox">
+                    <input type="number" id="phone" required>
+                    <label>phone</label>
+                </div>
+    
+                <div class="inputBox">
+                    <input type="text" id="subject" required>
+                    <label>subject</label>
+                </div>
+    
+                <div class="inputBox">
+                    <textarea id="message" cols="30" rows="10" required></textarea>
+                    <label>message</label>
+                </div>
+    
+                <input type="submit" value="send message" class="btn">
+    
+            </form>
+    
+        </div>
+    
+    </section>
+    
+    <script>
+    function sendEmail() {
+        const name = document.getElementById('name').value;
+        const email = document.getElementById('email').value;
+        const phone = document.getElementById('phone').value;
+        const subject = document.getElementById('subject').value;
+        const message = document.getElementById('message').value;
+    
+        const mailtoLink = `mailto:adebomiadeniyan@gmail.com?subject=${encodeURIComponent(subject)}&body=Name: ${encodeURIComponent(name)}%0D%0AEmail: ${encodeURIComponent(email)}%0D%0APhone: ${encodeURIComponent(phone)}%0D%0AMessage: ${encodeURIComponent(message)}`;
+    
+        window.location.href = mailtoLink; // Opens the user's email client with the populated fields
+    }
+    </script>
+    <!-- end -->
+
+    <!-- credit -->
+
+    <div class="footer">created by <span>ADE</span> | all rights reserved!</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="js/script.js"></script>
+
+    <script>
+        lightGallery(document.querySelector('.project .project-container'));
+    </script>
+
+</body>
+</html>
